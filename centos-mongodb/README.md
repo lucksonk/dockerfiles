@@ -2,6 +2,7 @@ dockerfiles-centos-mongodb
 ========================
 
 CentOS 7 dockerfile for MongoDB
+
 Based on ideas from [CentOS/CentOS-Dockerfiles](https://github.com/CentOS/CentOS-Dockerfiles) repo
 This image is to be used purely for extension means
 
