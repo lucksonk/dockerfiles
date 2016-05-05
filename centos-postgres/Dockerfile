@@ -10,6 +10,8 @@ RUN yum -y install sudo epel-release; yum clean all
 ENV PG_MAJOR_VERSION 9.5
 ENV PG_MAJOR 95
 ENV PG_MINOR_VERSION 2
+
+#Installation
 RUN rpm -Uvh http://yum.postgresql.org/$PG_MAJOR_VERSION/redhat/rhel-7-x86_64/pgdg-centos$PG_MAJOR-$PG_MAJOR_VERSION-$PG_MINOR_VERSION.noarch.rpm
 RUN yum -y install postgresql$PG_MAJOR-server postgresql$PG_MAJOR supervisor; yum clean all
 
